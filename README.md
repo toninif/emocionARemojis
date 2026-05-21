@@ -1,4 +1,4 @@
-# emocionARemojis
+# emocionARemojis <a href="https://toninif.github.io/emocionARemojis"><img src="man/figures/logo.png" align="right" height="104" alt="emocionARemojis website" /></a>
 
 Datos normativos afectivos de emojis para investigacion en
 psicologia, recogidos en poblacion argentina.

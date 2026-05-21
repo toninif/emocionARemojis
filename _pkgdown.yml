@@ -2,6 +2,19 @@ url: https://toninif.github.io/emocionARemojis
 
 template:
   bootstrap: 5
+  bslib:
+    base_font: {google: "Source Sans 3"}
+    heading_font: {google: "Source Serif 4"}
+    code_font: {google: "Source Code Pro"}
+    primary: "#3A6B7E"
+    bg: "#FFFFFF"
+    fg: "#1F2933"
+  includes:
+    in_header: |
+      <style>
+        a:hover { color: #2C5160; }
+        pre, code { background-color: #F4F5F7; }
+      </style>
 
 navbar:
   structure:
