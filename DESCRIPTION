@@ -1,0 +1,29 @@
+Package: emocionARemojis
+Title: Datos Normativos Afectivos de Emojis para Poblacion Argentina
+Version: 0.1.0
+Authors@R: 
+    person("Fernando", "Tonini",
+           email = "ftonin@palermo.edu",
+           role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-6435-8923"))
+Description: Provee datos normativos afectivos de emojis para uso en
+    investigacion en psicologia, recogidos en poblacion argentina.
+    Incluye normas de valencia, activacion, dominancia, familiaridad
+    y claridad, con valores discriminados por submuestras (general,
+    mujeres, hombres). Forma parte de la familia de paquetes emocionAR
+    de normas afectivas para poblacion argentina.
+License: CC BY 4.0
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 4.1.0)
+Suggests:
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Config/testthat/edition: 3
+URL: https://toninif.github.io/emocionARemojis/,
+    https://github.com/toninif/emocionARemojis
+BugReports: https://github.com/toninif/emocionARemojis/issues
+Config/roxygen2/version: 8.0.0

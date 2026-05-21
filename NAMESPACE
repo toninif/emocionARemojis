@@ -1,0 +1,5 @@
+# Generado por roxygen2: no editar a mano.
+# Se regenera con devtools::document()
+
+export(resumen_afectivo)
+export(seleccionar_emojis)

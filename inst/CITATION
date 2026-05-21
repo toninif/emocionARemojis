@@ -1,0 +1,8 @@
+bibentry(
+  bibtype  = "Misc",
+  title    = "emocionARemojis: Datos Normativos Afectivos de Emojis para Poblacion Argentina",
+  author   = person("Fernando", "Tonini"),
+  year     = "2026",
+  note     = "Version 0.1.0",
+  url      = "https://toninif.github.io/emocionARemojis/"
+)

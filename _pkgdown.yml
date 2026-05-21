@@ -1,0 +1,20 @@
+url: https://toninif.github.io/emocionARemojis
+
+template:
+  bootstrap: 5
+
+navbar:
+  structure:
+    left: [intro, reference, articles]
+    right: [github]
+
+reference:
+- title: Datos normativos
+  desc: Base de datos incluida en el paquete
+  contents:
+  - emojis
+- title: Funciones
+  desc: Herramientas para trabajar con los datos
+  contents:
+  - seleccionar_emojis
+  - resumen_afectivo

@@ -1,0 +1,58 @@
+---
+title: "Introduccion a emocionARemojis"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduccion a emocionARemojis}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+El paquete `emocionARemojis` provee datos normativos afectivos de
+emojis recogidos en poblacion argentina. Forma parte de la familia de
+paquetes `emocionAR` de normas afectivas para poblacion argentina.
+
+La base trae normas de valencia, activacion, dominancia, familiaridad
+y claridad, discriminadas por submuestra (general, mujeres, hombres).
+
+## Cargar los datos
+
+```{r setup}
+library(emocionARemojis)
+
+data(emojis)
+head(emojis)
+```
+
+Cada emoji aparece en tres filas, una por submuestra normativa. Este
+formato largo facilita comparar normas entre grupos.
+
+## Seleccionar emojis para un experimento
+
+La funcion `seleccionar_emojis()` filtra por rango afectivo. Por
+ejemplo, para un estudio que necesita emojis negativos y activantes:
+
+```{r}
+seleccionar_emojis(valencia = c(1, 4), activacion = c(6, 9))
+```
+
+## Resumen normativo
+
+```{r}
+resumen_afectivo()
+resumen_afectivo(poblacion = "Mujeres")
+```
+
+## Citar los datos
+
+Si usas estos datos en una investigacion, por favor citalos:
+
+```{r, eval = FALSE}
+citation("emocionARemojis")
+```
